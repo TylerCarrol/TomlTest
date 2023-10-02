@@ -9,12 +9,24 @@ name = "thing1"
 description = "This is Thing #1"
 definition = "one_1"
 
+[[tp.list2.thing1.args]]
+name = "thing1_arg"
+description = "This is an ARG"
+
 [tjc.list2.thing2]
 name = "thing2"
 description = "This is Thing #2"
 definition = "two_2"
 
+[[tp.list2.thing2.args]]
+name = "thing2_arg"
+description = "This is an ARG"
+
 [tjc.list2.thing3]
 name = "thing3"
 description = "This is Thing #3"
 definition = "three_3"
+
+[[tp.list2.thing3.args]]
+name = "thing3_arg"
+description = "This is an ARG"
