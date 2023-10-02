@@ -3,7 +3,7 @@ authors = ["TylerCarrol"]
 language = "en"
 multilingual = false
 src = "src"
-title = "TOML Test"
+title = "TOML Test Book"
 
 [preprocessor.tera]
 command = "mdbook-tera --toml ./documentation.toml"
