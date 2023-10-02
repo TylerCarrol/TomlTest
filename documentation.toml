@@ -1,4 +1,4 @@
-[tp.example]
+[tjc.example]
 name = "example"
 description = """This is an example TOML Table.
 With a multi-line Description.
