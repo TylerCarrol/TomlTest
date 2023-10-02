@@ -3,3 +3,6 @@ name = "example"
 description = """This is an example TOML Table.
 With a multi-line Description.
 """
+
+[tjc.title]
+name = "TOML Test Title"
