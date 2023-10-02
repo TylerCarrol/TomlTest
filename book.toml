@@ -1,0 +1,13 @@
+[book]
+authors = ["TylerCarrol"]
+language = "en"
+multilingual = false
+src = "src"
+title = "TOML Test"
+
+[preprocessor.tera]
+command = "mdbook-tera --toml ./documentation.toml"
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
