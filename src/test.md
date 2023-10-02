@@ -14,7 +14,7 @@ This is a test page
 ---
 ## List 2
 
-{%- for key, example_item in tjc.list2 %}
+{% for key, example_item in tjc.list2 %}
 
 {{ example_item.description }}
 
@@ -26,4 +26,4 @@ Arguments
 {{ arg.name }}: {{ arg.description }}
 {% endfor %} 
 {% endif %}
-{%- endfor %}
+{% endfor %}
