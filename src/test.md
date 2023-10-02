@@ -16,7 +16,6 @@ This is a test page
 
 {%- for key, fn in tjc.list2 %}
 
-{{ fn.definition }}
 {{ fn.description }}
 
 {% if fn.args %}
@@ -24,9 +23,7 @@ This is a test page
 Arguments
 {% for arg in fn.args %}
 
-{{ arg.name }}: {{ arg.description }} {% endfor %} {% endif %}
-{% if fn.example %}
-
-Example
-{{ fn.example }}
-{% endif %} {%- endfor %}
+{{ arg.name }}: {{ arg.description }}
+{% endfor %} 
+{% endif %}
+{%- endfor %}
