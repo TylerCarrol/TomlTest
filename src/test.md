@@ -14,14 +14,14 @@ This is a test page
 ---
 ## List 2
 
-{%- for key, item in tjc.list2 %}
+{%- for key, example_item in tjc.list2 %}
 
-{{ item.description }}
+{{ example_item.description }}
 
-{% if item.args %}
+{% if example_item.args %}
 
 Arguments
-{% for arg in item.args %}
+{% for arg in example_item.args %}
 
 {{ arg.name }}: {{ arg.description }}
 {% endfor %} 
