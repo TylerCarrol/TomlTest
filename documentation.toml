@@ -4,5 +4,17 @@ description = """This is an example TOML Table.
 With a multi-line Description.
 """
 
-[tjc.title]
-name = "TOML Test Title"
+[tjc.list2.thing1]
+name = "thing1"
+description = "This is Thing #1"
+definition = "one_1"
+
+[tjc.list2.thing2]
+name = "thing2"
+description = "This is Thing #2"
+definition = "two_2"
+
+[tjc.list2.thing3]
+name = "thing3"
+description = "This is Thing #3"
+definition = "three_3"
