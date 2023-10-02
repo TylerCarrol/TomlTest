@@ -14,7 +14,7 @@ This is a test page
 ---
 ## List 2
 
-{% for key, example_item in tjc.list2 %}
+{% for example_item in tjc.list2 %}
 
 {{ example_item.description }}
 
